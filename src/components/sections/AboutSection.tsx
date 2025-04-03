@@ -79,10 +79,10 @@ export default function AboutSection() {
                     >
                         <div className="relative rounded-3xl overflow-hidden shadow-2xl transform hover:scale-105 transition-transform duration-300">
                             <div className="absolute inset-0 bg-gradient-to-br from-blue-500/20 via-indigo-500/20 to-purple-500/20 dark:from-blue-400/20 dark:via-indigo-400/20 dark:to-purple-400/20"></div>
-                            <div className="relative aspect-square w-full max-w-md mx-auto">
+                            <div className="relative aspect-square w-full h-[550px] max-w-md mx-auto">
                                 <Image
                                     src="/avatar.jpg"
-                                    alt="Abu Said"
+                                    alt="My Avatar"
                                     fill
                                     className="object-cover"
                                     priority
