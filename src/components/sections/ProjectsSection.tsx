@@ -33,6 +33,24 @@ export default function ProjectsSection() {
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                     {[
                         {
+                            title: "CTF Battleground",
+                            description:
+                                "A Capture The Flag (CTF) platform for cybersecurity enthusiasts to practice and improve their skills.",
+                            category: "Web Development",
+
+                            technologies: [
+                                "Angular",
+                                "Spring Boot",
+                                "MySQL",
+                                "Docker",
+                                "Kubernetes",
+                                "CI/CD",
+                            ],
+                            image: "/images/ctf.devmaster.id.vn.png",
+                            link: "https://ctf.devmaster.id.vn",
+                            gradient: "from-green-500 to-blue-500",
+                        },
+                        {
                             title: "Movie Streaming Website",
                             description:
                                 "A movie streaming website with a modern design and responsive layout.",
