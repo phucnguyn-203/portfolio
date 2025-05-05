@@ -76,7 +76,7 @@ export default function EducationSection() {
                                         animate={{ opacity: 1, x: 0 }}
                                         transition={{ duration: 0.5, delay: 1 }}
                                     >
-                                        2021 - Present
+                                        2021 - Now
                                     </motion.p>
                                     <motion.p
                                         className="text-gray-700 dark:text-gray-300 mb-6 leading-relaxed"
@@ -92,31 +92,31 @@ export default function EducationSection() {
                                         and new technologies.
                                     </motion.p>
                                     <div className="flex flex-wrap gap-3">
-                                        {["Expected Graduation: 2026"].map(
-                                            (tag, index) => (
-                                                <motion.span
-                                                    key={index}
-                                                    className="px-4 py-2 bg-gradient-to-r from-indigo-100 to-purple-100 dark:from-indigo-900 dark:to-purple-900 text-indigo-600 dark:text-indigo-300 rounded-full text-sm font-medium shadow-md"
-                                                    initial={{
-                                                        opacity: 0,
-                                                        y: 20,
-                                                    }}
-                                                    animate={{
-                                                        opacity: 1,
-                                                        y: 0,
-                                                    }}
-                                                    transition={{
-                                                        duration: 0.5,
-                                                        delay:
-                                                            1.2 + index * 0.1,
-                                                    }}
-                                                    whileHover={{ scale: 1.05 }}
-                                                    whileTap={{ scale: 0.95 }}
-                                                >
-                                                    {tag}
-                                                </motion.span>
-                                            )
-                                        )}
+                                        {[
+                                            "Expected Graduation: 2026",
+                                            "Current GPA: 2.85/4.0",
+                                        ].map((tag, index) => (
+                                            <motion.span
+                                                key={index}
+                                                className="px-4 py-2 bg-gradient-to-r from-indigo-100 to-purple-100 dark:from-indigo-900 dark:to-purple-900 text-indigo-600 dark:text-indigo-300 rounded-full text-sm font-medium shadow-md"
+                                                initial={{
+                                                    opacity: 0,
+                                                    y: 20,
+                                                }}
+                                                animate={{
+                                                    opacity: 1,
+                                                    y: 0,
+                                                }}
+                                                transition={{
+                                                    duration: 0.5,
+                                                    delay: 1.2 + index * 0.1,
+                                                }}
+                                                whileHover={{ scale: 1.05 }}
+                                                whileTap={{ scale: 0.95 }}
+                                            >
+                                                {tag}
+                                            </motion.span>
+                                        ))}
                                     </div>
                                 </div>
                             </div>

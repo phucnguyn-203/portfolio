@@ -64,7 +64,7 @@ export default function ExperienceSection() {
                                         animate={{ opacity: 1, x: 0 }}
                                         transition={{ duration: 0.5, delay: 1 }}
                                     >
-                                        TMA Solutions
+                                        TMA SOLUTIONS
                                     </motion.p>
                                     <motion.p
                                         className="text-gray-500 dark:text-gray-400 mb-4"
@@ -87,37 +87,29 @@ export default function ExperienceSection() {
                                         }}
                                     >
                                         <li>
-                                            Developed a dynamic social travel
-                                            application using Angular, enhancing
-                                            the platform with user-friendly
-                                            features and ensuring high-quality
-                                            performance.
+                                            Developed and continuously improved
+                                            a dynamic, user-friendly social
+                                            travel platform using Angular,
+                                            delivering high-performance features
+                                            that enhanced user engagement and
+                                            usability.
                                         </li>
                                         <li>
-                                            Integrated the front-end interface
-                                            with backend APIs, facilitating
-                                            efficient data exchange and a
-                                            seamless user experience
+                                            Integrated RESTful APIs to ensure
+                                            seamless front-end and back-end
+                                            communication, optimizing data flow
+                                            and minimizing latency for a smooth
+                                            user experience.
                                         </li>
 
                                         <li>
-                                            Participated in daily stand-up
-                                            meetings and sprint planning
-                                            sessions to discuss project progress
-                                            and resolve technical challenges.
-                                        </li>
-                                        <li>
-                                            Collaborated with team members to
-                                            identify and resolve bugs, ensuring
-                                            the application met quality
-                                            standards and user requirements.
-                                        </li>
-                                        <li>
-                                            Learned to use Docker to
-                                            containerize the application and
-                                            apply Gitlab CI/CD pipeline to
-                                            automate the build and deployment
-                                            process.
+                                            Collaborated closely with
+                                            cross-functional teams, actively
+                                            participating in daily stand-ups and
+                                            sprint meetings, aligning technical
+                                            efforts with business goals and
+                                            ensuring timely delivery of project
+                                            milestones.
                                         </li>
                                     </motion.ul>
                                     <div className="flex flex-wrap gap-3">
