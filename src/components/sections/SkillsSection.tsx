@@ -38,12 +38,7 @@ const skillCategories: SkillCategory[] = [
         title: "Security",
         icon: ShieldCheckIcon,
         description: "Cybersecurity and secure coding practices",
-        skills: [
-            "OWASP Top 10",
-            "SIEM Solutions",
-            "Secure Coding Practices",
-            "Penetration Tools (Burp Suite, Metasploit)",
-        ],
+        skills: ["OWASP Top 10", "Secure Coding Practices", "Monitoring Tools"],
         gradient: "from-red-500/10 to-orange-500/10",
         iconGradient: "from-rose-500 via-red-500 to-orange-500",
     },
