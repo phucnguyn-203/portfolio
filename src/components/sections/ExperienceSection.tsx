@@ -75,8 +75,12 @@ export default function ExperienceSection() {
                                             delay: 1.1,
                                         }}
                                     >
-                                        June 2024 - September 2024
+                                        June 2024 - August 2024
                                     </motion.p>
+                                    <motion.h1>
+                                        <strong>Project name:</strong> Travel
+                                        Social WebApp
+                                    </motion.h1>
                                     <motion.ul
                                         className="text-gray-700 dark:text-gray-300 mb-6 leading-relaxed list-disc pl-6"
                                         initial={{ opacity: 0, y: 20 }}
@@ -87,29 +91,44 @@ export default function ExperienceSection() {
                                         }}
                                     >
                                         <li>
-                                            Developed and continuously improved
-                                            a dynamic, user-friendly social
-                                            travel platform using Angular,
-                                            delivering high-performance features
-                                            that enhanced user engagement and
-                                            usability.
+                                            <strong>Description:</strong> A
+                                            social travel platform that connects
+                                            users through travel experiences and
+                                            provides integrated services such as
+                                            hotel and flight booking for a
+                                            seamless trip planning experience.
                                         </li>
                                         <li>
-                                            Integrated RESTful APIs to ensure
-                                            seamless front-end and back-end
-                                            communication, optimizing data flow
-                                            and minimizing latency for a smooth
-                                            user experience.
+                                            <strong>Role:</strong> Front-End
+                                            Developer Intern
                                         </li>
-
                                         <li>
-                                            Collaborated closely with
-                                            cross-functional teams, actively
-                                            participating in daily stand-ups and
-                                            sprint meetings, aligning technical
-                                            efforts with business goals and
-                                            ensuring timely delivery of project
-                                            milestones.
+                                            <strong>Responsibilities:</strong>
+                                            <ul className="list-disc pl-6">
+                                                <li>
+                                                    Developed user interface
+                                                    components using Angular to
+                                                    enhance usability and user
+                                                    experience.
+                                                </li>
+                                                <li>
+                                                    Integrated RESTful APIs for
+                                                    hotel and flight booking
+                                                    services, ensuring real-time
+                                                    data flow and a smooth
+                                                    booking experience.
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <strong>Tech stack:</strong>{" "}
+                                            Angular, RESTful API, Git
+                                        </li>
+                                        <li>
+                                            <strong>Team size:</strong> Worked
+                                            in one of several front-end teams,
+                                            collaborating with other teams in a
+                                            large microservices-based project.
                                         </li>
                                     </motion.ul>
                                     <div className="flex flex-wrap gap-3">
