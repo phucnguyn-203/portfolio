@@ -78,7 +78,7 @@ export default function ProjectsSection() {
                                 "TypeScript",
                             ],
                             image: "/images/portfolio.png",
-                            link: "https://github.com/yourusername/portfolio",
+                            link: "https://phucnguyenhoang.vercel.app/",
                             gradient: "from-orange-500 to-red-500",
                         },
                     ].map((project, index) => (
