@@ -26,7 +26,7 @@ export default function ExperienceSection() {
                         transition={{ duration: 0.5 }}
                     >
                         <motion.h2
-                            className="text-5xl font-extrabold bg-gradient-to-r from-orange-600 via-purple-600 to-blue-600 bg-clip-text text-transparent mb-3"
+                            className="text-3xl sm:text-4xl md:text-5xl font-extrabold bg-gradient-to-r from-orange-600 via-purple-600 to-blue-600 bg-clip-text text-transparent mb-3"
                             initial={{ scale: 0.9 }}
                             animate={{ scale: 1 }}
                             transition={{ duration: 0.5, delay: 0.2 }}
@@ -45,7 +45,7 @@ export default function ExperienceSection() {
                 {/* Timeline Container */}
                 <div className="relative">
                     {/* Timeline Line with glow */}
-                    <div className="absolute left-8 md:left-1/2 top-0 bottom-0 w-1 bg-gradient-to-b from-orange-500 via-purple-500 to-blue-500 dark:from-orange-400 dark:via-purple-400 dark:to-blue-400 rounded-full shadow-[0_0_18px_rgba(129,140,248,0.55)]"></div>
+                    <div className="hidden md:block absolute left-8 md:left-1/2 top-0 bottom-0 w-1 bg-gradient-to-b from-orange-500 via-purple-500 to-blue-500 dark:from-orange-400 dark:via-purple-400 dark:to-blue-400 rounded-full shadow-[0_0_18px_rgba(129,140,248,0.55)]"></div>
 
                     {/* ELCA VIETNAM - Most Recent */}
                     <AnimateIn delay={0.3}>
@@ -53,7 +53,7 @@ export default function ExperienceSection() {
                             <div className="flex flex-col md:flex-row items-start md:items-center">
                                 {/* Timeline Dot */}
                                 <motion.div
-                                    className="absolute left-8 md:left-1/2 transform md:-translate-x-1/2 z-10"
+                                    className="hidden md:block absolute left-8 md:left-1/2 transform md:-translate-x-1/2 z-10"
                                     initial={{ scale: 0 }}
                                     animate={{ scale: 1 }}
                                     transition={{ duration: 0.5, delay: 0.5 }}
@@ -69,7 +69,7 @@ export default function ExperienceSection() {
 
                                 {/* Content Card */}
                                 <motion.div
-                                    className="ml-24 md:ml-0 md:w-[calc(50%-4rem)] md:mr-auto md:pr-12 w-full"
+                                    className="mx-auto w-full max-w-xl md:w-[calc(50%-4rem)] md:mr-auto md:pr-12 md:ml-0"
                                     initial={{ opacity: 0, x: -50 }}
                                     animate={{ opacity: 1, x: 0 }}
                                     transition={{ duration: 0.5, delay: 0.6 }}
@@ -77,7 +77,7 @@ export default function ExperienceSection() {
                                 >
                                     <div className="relative group">
                                         <div className="absolute -inset-1 bg-gradient-to-r from-orange-500 via-red-500 to-pink-500 rounded-2xl blur-lg opacity-25 group-hover:opacity-50 transition-all duration-500"></div>
-                                        <div className="relative bg-white dark:bg-gray-800 backdrop-blur-sm rounded-2xl p-7 shadow-2xl transition-all duration-300 border-2 border-orange-300 dark:border-orange-700 group-hover:border-orange-400 dark:group-hover:border-orange-600">
+                                        <div className="relative bg-white dark:bg-gray-800 backdrop-blur-sm rounded-2xl p-7 shadow-2xl transition-all duration-300 border-2 border-orange-300 dark:border-orange-700 group-hover:border-orange-400 dark:group-hover:border-orange-600 text-center md:text-left">
                                             <p className="text-orange-600 dark:text-orange-400 text-xl font-extrabold mb-2 tracking-wide">
                                                 ELCA VIETNAM
                                             </p>
@@ -91,7 +91,7 @@ export default function ExperienceSection() {
                                                 </span>
                                                 July 2025 - Now
                                             </p>
-                                            <div className="flex flex-wrap gap-2.5">
+                                            <div className="flex flex-wrap gap-2.5 justify-center md:justify-start">
                                                 {["Software Testing", "Playwright"].map((skill, index) => (
                                                     <span
                                                         key={index}
@@ -114,7 +114,7 @@ export default function ExperienceSection() {
                             <div className="flex flex-col md:flex-row items-start md:items-center">
                                 {/* Timeline Dot */}
                                 <motion.div
-                                    className="absolute left-8 md:left-1/2 transform md:-translate-x-1/2 z-10"
+                                    className="hidden md:block absolute left-8 md:left-1/2 transform md:-translate-x-1/2 z-10"
                                     initial={{ scale: 0 }}
                                     animate={{ scale: 1 }}
                                     transition={{ duration: 0.5, delay: 0.7 }}
@@ -130,7 +130,7 @@ export default function ExperienceSection() {
 
                                 {/* Content Card */}
                                 <motion.div
-                                    className="ml-24 md:ml-0 md:w-[calc(50%-4rem)] md:ml-auto md:pl-12 w-full"
+                                    className="mx-auto md:mx-0 w-full max-w-xl md:w-[calc(50%-4rem)] md:ml-auto md:mr-0 md:pl-12"
                                     initial={{ opacity: 0, x: 50 }}
                                     animate={{ opacity: 1, x: 0 }}
                                     transition={{ duration: 0.5, delay: 0.8 }}
@@ -138,7 +138,7 @@ export default function ExperienceSection() {
                                 >
                                     <div className="relative group">
                                         <div className="absolute -inset-1 bg-gradient-to-r from-blue-500 via-indigo-500 to-purple-500 rounded-2xl blur-lg opacity-25 group-hover:opacity-50 transition-all duration-500"></div>
-                                        <div className="relative bg-white dark:bg-gray-800 backdrop-blur-sm rounded-2xl p-7 shadow-2xl transition-all duration-300 border-2 border-indigo-300 dark:border-indigo-700 group-hover:border-indigo-400 dark:group-hover:border-indigo-600">
+                                        <div className="relative bg-white dark:bg-gray-800 backdrop-blur-sm rounded-2xl p-7 shadow-2xl transition-all duration-300 border-2 border-indigo-300 dark:border-indigo-700 group-hover:border-indigo-400 dark:group-hover:border-indigo-600 text-center md:text-left">
                                             <p className="text-indigo-600 dark:text-indigo-400 text-xl font-extrabold mb-2 tracking-wide">
                                                 TMA SOLUTIONS
                                             </p>
@@ -148,7 +148,7 @@ export default function ExperienceSection() {
                                             <p className="text-sm text-gray-600 dark:text-gray-300 mb-5 font-medium">
                                                 June 2024 - August 2024
                                             </p>
-                                            <div className="flex flex-wrap gap-2.5">
+                                            <div className="flex flex-wrap gap-2.5 justify-center md:justify-start">
                                                 {["Angular", "Gitlab CI/CD"].map((skill, index) => (
                                                     <span
                                                         key={index}
