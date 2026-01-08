@@ -22,7 +22,7 @@ const skillCategories: SkillCategory[] = [
         title: "Web Development",
         icon: CodeBracketIcon,
         description: "Modern web development technologies and best practices",
-        skills: ["React", "Next.js", "Angular", "Spring Boot", "REST", "MySQL"],
+        skills: ["React", "Next.js", "Angular", "Spring Boot", "REST API", "SQL"],
         gradient: "from-blue-500/10 to-purple-500/10",
         iconGradient: "from-blue-600 via-indigo-500 to-purple-600",
     },
