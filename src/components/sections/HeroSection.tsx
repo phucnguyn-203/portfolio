@@ -5,7 +5,7 @@ import { useEffect, useState } from "react";
 import {
     ArrowDownIcon,
     EnvelopeIcon,
-    DocumentArrowDownIcon,
+    // DocumentArrowDownIcon,
 } from "@heroicons/react/24/outline";
 
 export default function HeroSection() {
@@ -136,7 +136,7 @@ export default function HeroSection() {
                                 Hi, I&apos;m{" "}
                             </span>
                             <span className="bg-gradient-to-r from-blue-600 via-purple-600 to-pink-600 dark:from-blue-400 dark:via-purple-400 dark:to-pink-400 bg-clip-text text-transparent">
-                                {"Nguyen Hoang Phuc"
+                                {"Phuc Nguyen Hoang"
                                     .split("")
                                     .map((char, index) => (
                                         <motion.span
@@ -234,7 +234,7 @@ export default function HeroSection() {
                             ))}
                         </motion.div>
 
-                        <motion.div
+                        {/* <motion.div
                             initial={{ opacity: 0, y: 20 }}
                             animate={{ opacity: 1, y: 0 }}
                             transition={{ duration: 0.5, delay: 0.5 }}
@@ -252,7 +252,7 @@ export default function HeroSection() {
                                 </span>
                                 <div className="absolute inset-0 bg-gray-50 dark:bg-white/10 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
                             </a>
-                        </motion.div>
+                        </motion.div> */}
                     </motion.div>
 
                     {/* Right Column - Code Card */}
@@ -318,7 +318,7 @@ export default function HeroSection() {
                                             &#39;
                                         </span>
                                         <span className="text-blue-600 dark:text-blue-400 group-hover:text-blue-500 transition-colors">
-                                            Nguyen Hoang Phuc
+                                            Phuc Nguyen Hoang
                                         </span>
                                         <span className="text-gray-500 dark:text-gray-400">
                                             &#39;,

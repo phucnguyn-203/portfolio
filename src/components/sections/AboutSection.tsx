@@ -22,14 +22,14 @@ export default function AboutSection() {
             icon: <AcademicCapIcon className="w-6 h-6" />,
             title: "Education",
             description:
-                "Currently pursuing my undergraduate degree in Information Security, focusing on web development, DevOps, and security.",
+                "Bachelor’s degree in Information Security, with a strong foundation in software engineering, software testing, and cybersecurity fundamentals.",
             gradient: "from-indigo-500 to-purple-500",
         },
         {
             icon: <CommandLineIcon className="w-6 h-6" />,
             title: "Technical Skills",
             description:
-                "Proficient in modern web technologies, cloud platforms, and security practices, with a keen interest in continuous learning.",
+                "Skilled in software development, software testing, and CI/CD pipelines, with hands-on experience writing both production and test automation code.",
             gradient: "from-purple-500 to-pink-500",
         },
         {
@@ -63,10 +63,10 @@ export default function AboutSection() {
                     <h2 className="text-4xl font-bold text-gray-900 dark:text-white mb-4 transition-colors duration-300">
                         About Me
                     </h2>
-                    <p className="text-gray-600 dark:text-gray-300 max-w-2xl mx-auto text-lg transition-colors duration-300">
+                    {/* <p className="text-gray-600 dark:text-gray-300 max-w-2xl mx-auto text-lg transition-colors duration-300">
                         A passionate person focused on creating secure and
                         scalable web applications
-                    </p>
+                    </p> */}
                 </motion.div>
 
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
@@ -103,17 +103,11 @@ export default function AboutSection() {
                             className="bg-white/80 dark:bg-gray-800/80 backdrop-blur-sm rounded-2xl p-8 shadow-xl border border-gray-100 dark:border-gray-700 transition-colors duration-300"
                         >
                             <p className="text-lg text-gray-700 dark:text-gray-300 leading-relaxed">
-                                I&apos;m currently studying Information Security
-                                and have a growing interest in software
-                                development, DevOps, and cybersecurity. While
-                                I&apos;m still building my experience, I’ve
-                                worked on web applications, cloud deployments,
-                                and security best practices. I enjoy learning
-                                new technologies, optimizing workflows, and
-                                exploring how security fits into development and
-                                infrastructure. I&apos;m always excited to take
-                                on new challenges and grow my skills—let’s
-                                connect!
+                                I’m an Information Security graduate with experience in both
+                                Software Development and Automation Software
+                                Testing. I work on building web applications,
+                                developing test automation framework, and
+                                integrating testing into CI/CD pipelines
                             </p>
                         </motion.div>
 

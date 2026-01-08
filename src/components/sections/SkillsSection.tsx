@@ -3,8 +3,8 @@
 import { motion } from "framer-motion";
 import {
     CodeBracketIcon,
-    CloudIcon,
     ShieldCheckIcon,
+    CheckCircleIcon,
 } from "@heroicons/react/24/outline";
 import { ComponentType } from "react";
 
@@ -27,10 +27,11 @@ const skillCategories: SkillCategory[] = [
         iconGradient: "from-blue-600 via-indigo-500 to-purple-600",
     },
     {
-        title: "DevOps",
-        icon: CloudIcon,
-        description: "Continuous integration, deployment, and containerization",
-        skills: ["Docker", "Kubernetes", "CI/CD", "Jenkins", "Linux"],
+        title: "Software Testing",
+        icon: CheckCircleIcon,
+        description:
+            "Automated Software Testing with a strong developer mindset and CI/CD integration",
+        skills: ["Playwright", "Test Framework Design", "SDET"],
         gradient: "from-green-500/10 to-blue-500/10",
         iconGradient: "from-emerald-500 via-teal-500 to-cyan-500",
     },

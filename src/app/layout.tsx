@@ -7,7 +7,7 @@ import Layout from "@/components/Layout";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-    title: "Nguyen Hoang Phuc",
+    title: "Phuc Nguyen Hoang - Portfolio",
 };
 
 export default function RootLayout({

@@ -76,9 +76,9 @@ export default function EducationSection() {
                                         animate={{ opacity: 1, x: 0 }}
                                         transition={{ duration: 0.5, delay: 1 }}
                                     >
-                                        2021 - Now
+                                        2021 - 2026
                                     </motion.p>
-                                    <motion.p
+                                    {/* <motion.p
                                         className="text-gray-700 dark:text-gray-300 mb-6 leading-relaxed"
                                         initial={{ opacity: 0, y: 20 }}
                                         animate={{ opacity: 1, y: 0 }}
@@ -90,8 +90,8 @@ export default function EducationSection() {
                                         Currently pursuing my degree with a
                                         focus on cybersecurity, web security,
                                         and new technologies.
-                                    </motion.p>
-                                    <div className="flex flex-wrap gap-3">
+                                    </motion.p> */}
+                                    {/* <div className="flex flex-wrap gap-3">
                                         {[
                                             "Expected Graduation: 2026",
                                             "Current GPA: 2.85/4.0",
@@ -117,7 +117,7 @@ export default function EducationSection() {
                                                 {tag}
                                             </motion.span>
                                         ))}
-                                    </div>
+                                    </div> */}
                                 </div>
                             </div>
                         </motion.div>
